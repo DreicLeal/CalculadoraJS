@@ -14,7 +14,8 @@ function calculadora(){
         if( !n1 || !n2) {
             alert("Digite um caractere válido");
             calculadora();
-        } else {function soma (){
+        } else {
+            function soma (){
             resultado = n1+n2;
             alert(`${n1} + ${n2} = ${resultado}`);
             novaOperacao();
